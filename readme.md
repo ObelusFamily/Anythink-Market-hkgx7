@@ -10,4 +10,12 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
+- Go ahead and download Docker and Docker Compose plugin from [Docker Site](https://docs.docker.com/get-docker/)
+
+- Next Run `docker compose -v` and `docker -v` to verify the installation. 
+
+- Now clone the official anything repo and from the project root directory run `docker compose up`
+
+- And done, if everything went right you should be able to see a message on https://localhost:3000/api/ping
+
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
